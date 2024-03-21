@@ -415,3 +415,119 @@ body .chatbot{
   justify-content: center;
   
 }
+
+.mailbox{
+  margin: 10px;
+  position: absolute;
+  padding: 20px;
+  margin-left: 20px;
+  width: 90vw;
+  height: 85vh;
+  max-height: 100%;
+  background-color: #6495ED;
+}
+.mail-head{
+  padding: 5px;
+  /*width: 900px;
+  height: auto;*/
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+/*
+.mail-head-a{
+  width: max-content;
+  height: max-content;
+}
+.mail-head-b{
+  width: max-content;
+  height: max-content;
+}*/
+.mail-form{
+  font-family: 'Ubuntu', sans-serif;
+  padding: 5px;
+  height: 50px;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+}
+.mail-search{
+  height: 100%;
+  margin-left: 5vw;
+  outline: none;
+  border: none;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: 500;
+  width: 35vw;
+  background: var(--primary-color-light);
+}
+.mail-search-button{
+  height: 100%;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  font-size: 18px;
+  font-weight: 500;
+  background: var(--primary-color-light);
+  padding: 7px;
+  margin-left: 3px;
+}
+.mail-head-label{
+  margin-left: 22vw;
+  font-size: 30px;
+  margin-right: 10px;
+}
+.mail-head-select{
+  height: 100%;
+  width: 10vw;
+  outline: none;
+  font-size: 18px;
+  text-align: center;
+}
+.mailbox .mail-container{
+  display: flex;
+  flex-flow: row;
+  height: 68vh;  
+}
+.mailbox ul{
+  list-style: none;
+  margin-top: 10px;
+  font-size: 16px;
+}
+.mail-left-container ul{
+  height: 100%;
+  width: 100%;
+  margin-top: 0;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.mail-left-container li{
+  border: 3px outset;
+  margin: 2px;
+  height: 70px;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  background-color: cornsilk;
+  align-content: center;
+}
+.mail-left-container li a{
+  text-decoration: none;
+}
+.mailbox .mail-left-container{
+  width: 20vw;
+  border: 5px solid black;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.mailbox .mail-main-content{
+  border: 5px solid black ;
+  width: 500px;
+}
