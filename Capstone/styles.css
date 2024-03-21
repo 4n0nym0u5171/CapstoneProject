@@ -309,7 +309,7 @@ body.dark .switch::before{
 body .chatbot{
   position: fixed;
   right: 170px;
-  bottom: 100px;
+  /*bottom: 100px;*/
   width: 77%;
   overflow: hidden;
   border-radius: 15px;
@@ -330,7 +330,7 @@ body .chatbot{
 }
 
 .chatbot .chatbox{
-  height: 510px;
+  height: 70vh;
   overflow-y: auto;
   padding: 30px 20px 70px;
 }
@@ -391,6 +391,7 @@ body .chatbot{
   font-size: 0.95rem;
   resize: none;
   padding: 16px 15px 16px 0;
+  bottom: 6vh;
 }
 
 .chat-input span{
